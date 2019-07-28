@@ -1,6 +1,6 @@
-Matrix Calculator
+# Matrix Calculator
 
-Goals
+## Goals
 
 Write, compile and test a matrix calculator program
 Review the concept of pointers, and multi-dimensional dynamic arrays
@@ -14,9 +14,9 @@ For this course, we will be compiling code on the flip server. It is advised to 
 
  
 
-Requirements
+## Requirements
 
-Files:
+### Files:
 
 For simplicity, there are only 2 sizes of matrix for this program: either a 2x2 or a 3x3 matrix.
 
@@ -24,13 +24,13 @@ Create a matrix calculator program that consists of 5 files.
 
 The program should have two functions:
 
-void readMatrix()
-int determinant()
+**void readMatrix()
+int determinant()**
 Each function should have its own header files (.hpp) and source code (.cpp). Including the main file that contains main function to run the program, there should be 5 files for the program to be compiled and run properly.
 
  
 
-main function:
+### main function:
 
 The main function should contain following steps:
 
@@ -38,12 +38,12 @@ Ask the users to choose the size of the matrix (2x2 or 3x3).
 Dynamically allocates the memory space for the matrix using readMatrix() to prompt the user to enter 4 or 9 integers to fill the matrix
 Calculate the determinant using determinant().
 Display both the matrix and the determinant to the user.
-Note: please display the matrix in a square format, do not display it in a line.
+***Note: please display the matrix in a square format, do not display it in a line.***
 
 Free the dynamically allocated memory
  
 
-void readMatrix():
+### void readMatrix():
 
 The readMatrix() function has two parameters:
 
@@ -53,7 +53,7 @@ The function should prompt the user for all the numbers within the matrix, that 
 
  
 
-int determinant():
+### int determinant():
 
 The determinant() function has two parameters:
 
@@ -67,7 +67,7 @@ https://www.mathsisfun.com/algebra/matrix-determinant.html (Links to an external
 
  
 
-Dynamic Memory
+### Dynamic Memory
 
 The program needs to dynamically allocate the 2D array in main function, and free the dynamically allocated memory when it is no longer in use. The following link can provide some hint:
 
@@ -79,7 +79,7 @@ If memories are allocated but never freed during program runtime, it will cause 
 
  
 
-Input validation
+### Input validation
 
 In this lab, you can assume users will only input integers when asked, and TAs won’t test the program using other types of input, but what if they do?
 
@@ -91,7 +91,7 @@ Input validation is not required for this lab, but you need to start learning it
 
  
 
-Makefile
+### Makefile
 
 Once your program is working, create a makefile to build the program. You do not need a complicated makefile; you only need a makefile that have following two target (functionalities):
 
