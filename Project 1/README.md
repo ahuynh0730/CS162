@@ -54,7 +54,7 @@ Important: When encountering edge cases, crashing the program, or quitting the p
 
  
 
-Menu
+### Menu
 
 In this project, we are going to implement menu functions that can be reused in later programs. Menu functions are functions that prints menu options to the screen for the user, and after the user makes a choice, verify the user’s input, and return the value back to the program. The menu function should be easily changeable to fit whatever program you are writing.
 
@@ -64,17 +64,31 @@ Below is the detail of the menu functions for this project:
 
 When the program starts the menu should provide 2 options:
 
-Start Langton’s Ant simulation
-Quit
+    1. Start Langton’s Ant simulation
+    2. Quit
 If the user decided to quit, the program should quit. Otherwise, start the Langton’s Ant simulation. After the simulation starts, the program should prompt user for all the information to run the simulation, including:
 
-The number of rows for the board.
-The number of columns for the board.
-The number of steps during simulation.
-The starting row of the ant.
-The starting column of the ant.
+    *The number of rows for the board.
+    *The number of columns for the board.
+    *The number of steps during simulation.
+    *The starting row of the ant.
+    *The starting column of the ant.
  
 
 After the simulation ended, the menu should provide user 2 choices: play again, or quit.
 
 You can customize the menu, or how the program prompt use for inputs however you want, as long as all the above requirements are met. You can even make the simulation information prompts a menu, by providing an option menu for each information, allowing user to modify the data as they wish before starting simulation, but it is not a requirement.
+
+### Input Validation
+
+Input validation is the testing for input that is supplied from outside source. (including human input)
+
+Consider the following scenario: if the program request for an input of integer and the user instead input a character of “t”, it would cause the program to crash. But with an input validation, the error is caught, and the input is requested again, until the user input a correct type of data.
+
+The requirement of input validation, is to make sure the program
+
+    *does not crash from undesired input
+    *request for input repeatedly until the correct data is inputted.
+A good way of planning input validation is to first think about what kind of input is desired for each input in a program. For example, for choosing the starting row of the ant, what type of data is desired? Integer. What kind of integer? Depending on design, the desired integer can be positive, and not higher than the number of rows the board has.
+
+If you would like to add more feature to your input validation, or add a limit to the integer inputs, you are free to do so, as long as it makes sense and does not affect program testing.
