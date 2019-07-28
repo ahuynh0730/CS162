@@ -85,37 +85,4 @@ The requirements of input validation have been specified in the Project 1, Lab 3
 
  
 
-Reflection Document
-
-The requirements for the reflection document have been specified in the Project 1 document.
-
-Make sure your document has design descriptions, test tables, and reflections. The reflections include: changes in design, problems encountered, and how you solve those problems.
-
  
-
-Extra Credit
-
-New Animal: (5pts)
-
-Add a new class for your new animal. It should also inherit from the Animal class. This should also allow the user to dynamically create a new animal during runtime, re-prompting them for each trait.
-
- 
-
-Status messages: (5pts)
-
-Output a message into a text file for each random event. For example, during a boom in zoo attendance, print:
-“Today is National Tiger Day! Tigers generate money today! You made: 360 extra dollars for each tiger you own!” 
-
-Then use ifstream to read messages from the created text file and display the message.
-Your program could have an existing textfile to start with and rewrite the textfile when different event occurs.
- 
-
-Different Feed Types: (5pts)
-
-Allow user to pick between 3 different types of feed at the start of each day.
-
-Cheap: Half as expensive for all animals, sickness becomes twice as likely to occur.
-
-Generic: behaves normally.
-
-Premium: Twice as expensive for all animals, sickness becomes half as likely to occur.
