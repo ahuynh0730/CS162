@@ -48,16 +48,16 @@ Each turn is a “day”. At the beginning of the day, all animals increase age 
 #### Random Events:
 
 	1. A sickness occurs to an animal in the zoo:
-			1. Pick an animal at random that will die
-			2. Remove one animal of that type from the exhibit. (dynamic array in the zoo)
+		1. Pick an animal at random that will die
+		2. Remove one animal of that type from the exhibit. (dynamic array in the zoo)
 	2. A boom in zoo attendance occurs:
-			1. Generate a random bonus between 250 and 500 dollars for each tiger in the zoo for the day 
-			2. Add the bonus payoff for each tiger to the total payoff of the day as a reward
+		1. Generate a random bonus between 250 and 500 dollars for each tiger in the zoo for the day 
+		2. Add the bonus payoff for each tiger to the total payoff of the day as a reward
 	3. A baby animal is born:
-			1. Pick an animal at random to have a baby
-			2. Check if there is an animal old enough to be a parent (age >= 3), add babies to the zoo depending on the “number of babies” specific to the type of animal. 
-			If no animal is old enough of the randomly selected type, pick another type of animal. Baby animals start at age 0. 
-			For simplicity, you don’t need to consider the gender of the adult animals in order to have babies. One adult animal is good enough to have babies.
+		1. Pick an animal at random to have a baby
+		2. Check if there is an animal old enough to be a parent (age >= 3), add babies to the zoo depending on the “number of babies” specific to the type of animal. 
+		If no animal is old enough of the randomly selected type, pick another type of animal. Baby animals start at age 0. 
+		For simplicity, you don’t need to consider the gender of the adult animals in order to have babies. One adult animal is good enough to have babies.
 	Note: If no animals are able to give birth to baby animals in the zoo, your program needs to be able to recognize this and recover.
 	4. Nothing happens
 
