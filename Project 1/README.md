@@ -1,6 +1,6 @@
-Langton’s Ant
+# Langton’s Ant
 
-Goals
+## Goals
 
 Review programming with dynamic arrays
 Convert program requirements to a program design
@@ -11,9 +11,9 @@ In this project, we will implement a program that simulates Langton’s Ant. For
 
  
 
-Requirements
+## Requirements
 
-Langton’s Ant Rule
+### Langton’s Ant Rule
 
 The rule of Langton’s Ant is very simple: the ant is placed onto the board that is filled with white spaces, and starts moving forward. For each step forward, the Langton’s ant will follow 2 rules:
 
@@ -23,7 +23,7 @@ After that the ant moves to the next step and continue moving forward. The ant w
 
  
 
-Ant Class
+### Ant Class
 
 The Ant class should contain all the information that includes:
 
@@ -35,13 +35,13 @@ How about class functions? Make sure only the class function can modify the vari
 
  
 
-Langton’s Ant Program
+### Langton’s Ant Program
 
 The ant starts at a user specified location on the board. For the initial direction of the ant, it can be either random, or fixed, or a choice from the user; it is up to your design decision. During each step, the program should print the board. If the space is occupied by an ant, no matter what the color of that square is, the program should print a “*” on that space; otherwise, if the space is white space, print a space character, and if the space is a black space, print a “#” character.
 
 Below is an example printing output of a step of Langton’s Ant with board of 5 rows and 5 columns: (Note that the space the ant is occupying is a white space)
 
-ant.jpg
+![Image of ant](https://github.com/ahuynh0730/CS162/blob/master/Project%201/ant.jpg)
 
 Please consider edge cases before you start programming. For example, what happens when the Ant hits the corner or side of the board? The program cannot let the ant go out of bound or it is going to cause segmentation error. How to solve the edge case is up to your design decision, but it must be handled properly. Here are some of the actions past students have taken in these edge cases:
 
