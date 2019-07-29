@@ -37,7 +37,7 @@ For more information on triangular number: https://en.wikipedia.org/wiki/Triangu
 
  
 
-Menu
+### Menu
 
 Your program needs to demonstrate all three functions by providing a menu.
 
