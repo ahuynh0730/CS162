@@ -89,7 +89,7 @@ For “do_work()” in Person class, if the Person is a Student, then the functi
 
  
 
-####Instructor Class
+#### Instructor Class
 
 The Instructor class contains the following member variable:
 
