@@ -1,0 +1,21 @@
+Building:
+Adams Hall
+11168
+606 SW 15th St
+
+Building:
+Aero Engineering Lab
+3637
+852 SW 30th Street
+
+Person!
+Student
+Anthony Huynh
+24
+4
+
+Person!
+Instructor
+John DeBoss
+30
+4.5
