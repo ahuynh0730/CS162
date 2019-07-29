@@ -4,8 +4,8 @@
 
 ## Goals
 
-Implement a program using inheritance and polymorphism
-Get more practice on classes and objects
+	*Implement a program using inheritance and polymorphism
+	*Get more practice on classes and objects
 In this lab, we will write an information system for Oregon State University. The purpose of this lab is to help you understand the basic concepts of inheritance and polymorphism.
 
  
@@ -26,15 +26,15 @@ Note: For each class, you are required to create necessary functions such as con
 
 The University class contains the following member variables:
 
-name: name of the university.
+	*name: name of the university.
 The name of the university MUST be “Oregon State University”
 
-buildings: contains n number of Building objects
-people: contains m number of Person objects
+	*buildings: contains n number of Building objects
+	*people: contains m number of Person objects
 It contains the following member functions:
 
-A function that prints the information on all the buildings in its information system (name, address, and building’s size)
-A function that prints the information of all the people (name, age, GPA or Rating)
+	*A function that prints the information on all the buildings in its information system (name, address, and building’s size)
+	*A function that prints the information of all the people (name, age, GPA or Rating)
 Note: The information on Building class and Person class are described below.
 
 Note: When printing information of all people, you need to distinguish instructors and students by print either a “GPA” or “Rating”.
@@ -45,9 +45,9 @@ Note: When printing information of all people, you need to distinguish instructo
 
 The Building class contains the following member variables:
 
-name: name of the building
-size: the size of the building (in sqft)
-address: address of the building (stored as string)
+	*name: name of the building
+	*size: the size of the building (in sqft)
+	*address: address of the building (stored as string)
 You are encouraged to get the actual address and sizes of buildings that exist on the actual campus, here is the link to look this up, but this is not a hard requirement.
 
 http://facilities.oregonstate.edu/buildings (Links to an external site.)
@@ -62,8 +62,8 @@ Person class is polymorphic, a Person pointer can hold an Instructor/Student obj
 
 The Person class contains the following member variables:
 
-name: name of the person
-age: age of the person
+	*name: name of the person
+	*age: age of the person
 The age of a person can be randomized or from input, but make it realistic
 
 The Person class contains the following member function:
@@ -80,7 +80,7 @@ Note: You can set a range for the random number to make the working hours look r
 
 The Student class contains the following member variable:
 
-GPA, the student’s GPA (double or float data type)
+	*GPA, the student’s GPA (double or float data type)
 The range for GPA must be between 0.0 and 4.0.
 
 For “do_work()” in Person class, if the Person is a Student, then the function should output the following message:
@@ -93,7 +93,7 @@ For “do_work()” in Person class, if the Person is a Student, then the functi
 
 The Instructor class contains the following member variable:
 
-rating, the instructor’s rating (double or float data type)
+	*rating, the instructor’s rating (double or float data type)
 The range for rating must be between 0.0 and 5.0.
 
 For “do_work()” in Person class, if the Person is an Instructor, then the function should output the following message:
