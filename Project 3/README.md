@@ -30,27 +30,35 @@ Note: “1d12” means rolling one 12-sided die, and “2d6” means rolling 2 6
  
 
 The characters also have their own characteristics as well as special abilities
-|---------------|-----------------------------------------------------------------------|-----------------------------------------------------------
-| Vampire      	| Suave, debonair, but vicious and surprisingly resilient.             	| Charm: Vampires can charm an opponent into not attacking.
-|				|																		| For a given attack there is a 50% chance that their
-|				|																		| opponent does not actually attack them.                      
-|---------------|-----------------------------------------------------------------------|-----------------------------------------------------------
-| Barbarian   	| Think Conan or Hercules from the movies. Big sword, 					|
-|				| big muscles, bare torso.       										|                                                                                                                            
-|---------------|-----------------------------------------------------------------------|-----------------------------------------------------------
-| Blue Men     	| They are small, 6 inch tall, but fast and tough.						| Mob: Blue Men are actually a swarm of small individuals.
-|             	| They are hard to hit so they can take some damage. 					| For every 4 points of damage, they lose one defense die.
-|				| They can also do a LOT of damage when they							| For example, if they have a strength of 8,
-|				| crawl inside enemies’ armor or clothing.								| they would have 2d6 for defense. 									                
-|---------------|-----------------------------------------------------------------------|-----------------------------------------------------------
-| Medusa       	| Scrawny lady with snakes for hair which helps her during combat.     	| Glare: If a Medusa rolls a 12 when attacking then the
-|              	| Just don’t look at her!                                              	| target instantly gets turned into stone and Medusa wins!                                                                     
-|			   	|																		| If Medusa uses Glare on Harry Potter on his first life,																										 
-|			   	|	 																	| then Harry Potter comes back to life. 																												 
-|---------------|-----------------------------------------------------------------------|-----------------------------------------------------------
-| Harry Potter 	| Harry Potter is a wizard.                                            	| Hogwarts: If Harry Potter's strength reaches 0 or below,
-|			   	|																		| he immediately recovers and his total strength becomes 20.
-|			  	|																		| If he were to die again, then he’s dead.             
+
+| Type         	| Characterstics		| Special Abilities   			|
+|---------------|-------------------------------|---------------------------------------|	
+| Vampire      	| Suave, debonair, but		| Charm: Vampires can charm an 		|
+|		| vicious and surprisingly	| opponent into not attacking. 		|
+|		| resilient.		   	| For a given attack there is a 	|
+|		|				| 50% chance that their opponent	| 
+|		|				| does not actually attack them.	|
+| Barbarian    	| Think Conan or Hercules from	|					|
+|		| the movies. Big sword, big 	|					|
+|		| muscles, bare torso.        	|		 	     		| 
+| Blue Men     	| They are small, 6 inch tall, 	| Mob: Blue Men are actually a swarm of	|
+|		| but fast and tough. They are 	| small individuals. For every 4 points	|
+|		| hard to hit so they can take	| of damage, they lose one defense die. |
+|		| some damage. They ccan also do| For example, if they have a strength 	|
+|		| a LOT of damage when they 	| of 8, they would have 2d6 for defense.|
+|		| crawl inside enemies' armor 	|					|
+|		| or clothing			| 	   				| 
+| Medusa       	| Scrawny lady with snakes for 	| Glare: If a Medusa rolla a 12 when 	|
+|		| hair which helps her during 	| attacking then the target instantly 	|
+|		| combat. Just don't look at 	| gets turned into stone and Medusa 	|
+|		| her.				| wins! If Medusa uses Glare on Harry	|
+|		|				| Potter on his first life, then Harry 	|
+|		|				| Potter comes back to life.		|
+| Harry Potter 	| Harry Potter is a wizard.     | Hogwarts: If Harry Potter's strength 	|
+|		|				| reaches 0 or below, he immediately	|
+|		|				| recovers and his total strength 	|
+|		|				| becomes 20. If he were to die again,	|
+|		|				| then he’s dead.     			| 
 
 
 Note:
