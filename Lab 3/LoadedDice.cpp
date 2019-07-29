@@ -17,8 +17,6 @@ LoadedDice::LoadedDice(int numbSides)
 //will roll dice up to the number of rerolls(3) if result is less than half
 int LoadedDice::roll() 
 {
-	//next line is commented out but was used for testing to make sure loaded dice was rolled
-	//std::cout << "loaded dice is rolled" << std::endl;
 	int roll = 0;
 	for (int i = 0; i < numberRerolls; i++)
 	{
