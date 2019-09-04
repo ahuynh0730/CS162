@@ -1,3 +1,15 @@
+# Burger Mania
+
+In this game, the player will receive an order and must go around the board and obtain those ingredients for a burger in a specific order.
+
+The current inventory will not be displayed so players must remember the last ingredient that was obtained. 
+
+If the order list was correct, the user may go to the submit order space, where the user will get points if their order matches the order that was given. 
+
+If the order list is incorrect, the user may go to the trash space to get rid of all ingredients in their inventory. 
+
+Below are the goals and requirements that were given for this game.
+
 # A Text-based Game
 
 In this game, the game will give you a requirement of ingredients and the order they must be picked up. There will not be a list that shows current ingredients
